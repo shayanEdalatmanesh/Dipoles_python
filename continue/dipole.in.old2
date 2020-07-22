@@ -1,0 +1,8 @@
+
+
+point_grid = 20,20,1; # At how many points to evaluete potential in each direction xyz
+eval_height = 3,6  # The volume in whcih those points lie I have the xy from lattivce vectors but I need z min and z max
+cutoff = 100; 
+geo_input = geo.in; #Dipole geometry file
+long_range = True
+plotDip = True
